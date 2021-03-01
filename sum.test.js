@@ -19,3 +19,11 @@ test("multiply 2 x 2 to equal 4", () => {
   test("multiply by 0", () => {
     expect(multiply(2, 0)).toBe(0);
   });
+
+  test("divideby 0", () => {
+    expect(divide(2, 0)).toBe(Infinity);
+  });
+
+  test("subtract a negative number", () => {
+    expect(subtract(2, -1)).toBe(3);
+  });
