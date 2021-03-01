@@ -6,4 +6,12 @@ const subtract = (x,y) => {
     return x-y;
 }
 
-module.exports={sum,subtract};
+const divide = (x,y) => {
+    return x / y
+}
+
+const multiply = (x,y) => {
+    return x*y
+}
+
+module.exports={sum,subtract, divide, multiply};
